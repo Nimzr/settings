@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    // Toggle between terminal and editor focus
+    { "key": "ctrl+1", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+1", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
+
+    {
+        "key": "shift+enter",
+        "command": "PowerShell.RunSelection",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "f8",
+        "command": "-PowerShell.RunSelection",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    }
+]
