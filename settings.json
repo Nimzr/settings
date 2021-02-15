@@ -39,6 +39,7 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false,
+                "fontFace": "Cascadia Code PL",
                 "useAcrylic": true, 
                 "acrylicOpacity": 0.6,
                 "background": "#0567b3"

@@ -1,6 +1,6 @@
 # settings
 ## keybindings.json
-is the vscode keybinding file. it needs to be copied to
+is the vscode keybinding file. it needs to be copied to 
 C:\Users\<User>\AppData\Roaming\Code\User\
 
 
